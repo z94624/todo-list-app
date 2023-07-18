@@ -16,7 +16,7 @@ const AddTodoInput: React.FC<Props> = ({ onCreate }) => {
   return (
     <form className="input-group mb-5" onSubmit={handleSubmit}>
       <input
-        className="form-control border-primary"
+        className="form-control border-primary-subtle"
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}

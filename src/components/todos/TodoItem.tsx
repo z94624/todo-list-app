@@ -22,7 +22,7 @@ const TodoItem: React.FC<Props> = ({
   onDeleteTodo,
 }) => {
   return (
-    <div className="form-check border border-bottom-secondary rounded py-3 m-0 d-flex justify-content-between align-items-center">
+    <div className="form-check border-bottom py-3 m-0 d-flex justify-content-between align-items-center">
       <div>
         <input
           className="ms-1 me-3 form-check-input"

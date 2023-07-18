@@ -1,8 +1,8 @@
-// 供全域使用
+// Type Declaration File：供全域使用
 
 interface Todo {
-    text: string;
-    complete: boolean;
+  text: string;
+  complete: boolean;
 }
 
 type AddTodo = (text: string) => void;
